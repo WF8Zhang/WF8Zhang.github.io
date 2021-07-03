@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ZWF's BLOGS</title>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <div id="sidebar">
         <ul>
             <li><a href="index.html" title="首页" target="_self">首页</a></li>
-            <li><a href="page1.html" title="学习分享" target="_self">学习分享</a></li>
-            <li><a href="page2.html" title="留言板" target="_self">留言板</a></li>
-            <li><a href="page3.html" title="关于" target="_self">关于</a></li>
+            <li><a href="html/page1.html" title="学习分享" target="_self">学习分享</a></li>
+            <li><a href="html/page2.html" title="留言板" target="_self">留言板</a></li>
+            <li><a href="html/page3.html" title="关于" target="_self">关于</a></li>
         </ul>
     </div>
     <header>
@@ -23,9 +23,9 @@
             <nav>
                 <ul>
                     <li><a href="index.html" title="首页" target="_self">首页</a></li>
-                    <li><a href="page1.html" title="学习分享" target="_self">学习分享</a></li>
-                    <li><a href="page2.html" title="留言板" target="_self">留言板</a></li>
-                    <li><a href="page3.html" title="关于" target="_self">关于</a></li>
+                    <li><a href="html/page1.html" title="学习分享" target="_self">学习分享</a></li>
+                    <li><a href="html/page2.html" title="留言板" target="_self">留言板</a></li>
+                    <li><a href="html/page3.html" title="关于" target="_self">关于</a></li>
                 </ul>
             </nav>
         </div>
@@ -102,22 +102,13 @@
                     <tr>
                         <td colspan="2">
                             <p class="part2-2container">
-
+                                0-1背包问题有动态规划和回溯算法两种解法。
                             </p>
                             <p class="part2-2container">
-                                学习Web前端开发的时候，参考了一些网站的源代码后，对overflow:hidden有了些兴趣， 学习了一下overflow:hidden的含义，在CSDN找到的的这篇文章写的挺具体的，分享一下：
-                                <a href="https://blog.csdn.net/qq_41638795/article/details/83304388" target="_blank">
-                                    overflow:hidden的作用详解</a>
+                                动态规划与分治法类似，都是把大问题拆分成小问题，通过寻找大问题与小问题的递推关系，解决一个个小问题，最终达到解决原问题的效果。但不同的是，分治法在子问题和子子问题等上被重复计算了很多次，而动态规划则具有记忆性，通过填写表把所有已经解决的子问题答案纪录下来，在新问题里需要用到的子问题可以直接提取，避免了重复计算，从而节约了时间，所以在问题满足最优性原理之后，用动态规划解决问题的核心就在于填表，表填写完毕，最优解也就找到。 最优性原理是动态规划的基础，最优性原理是指“多阶段决策过程的最优决策序列具有这样的性质：不论初始状态和初始决策如何，对于前面决策所造成的某一状态而言，其后各阶段的决策序列必须构成最优策略”。
                             </p>
                             <p class="part2-2container">
-                                解决单源最短路径问题时，学习了迪杰斯特拉算法(Dijsktra)，在CSDN上找了几篇文章学习， 感觉这一篇写得挺好的，清晰易懂，链接奉上：
-                                <a href="https://blog.csdn.net/weixin_46215084/article/details/108965349" target="_blank">
-                                    详解单源最短路径问题-迪杰斯特拉算法(Dijsktra)</a>
-                            </p>
-                            <p class="part2-2container">
-                                使用VSCode的时候发现了很多实用的插件，使用后带来了很多方便，推荐给大家：
-                                <a href="https://blog.csdn.net/weixin_46215084/article/details/108965349" target="_blank">
-                                    VSCode插件推荐</a>
+                                回溯法（探索与回溯法）是一种选优搜索法，又称为试探法，按选优条件向前搜索，以达到目标。但当探索到某一步时，发现原先选择并不优或达不到目标，就退回一步重新选择，这种走不通就退回再走的技术为回溯法，而满足回溯条件的某个状态的点称为“回溯点”。
                             </p>
                         </td>
                     </tr>
