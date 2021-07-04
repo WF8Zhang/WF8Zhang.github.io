@@ -12,6 +12,7 @@ p {
 }
 
 header {
+    /* 背景图片铺满 */
     background: url("../img/homepage.jpeg") center center no-repeat;
     position: relative;
     background-size: cover;
@@ -25,9 +26,13 @@ header {
 }
 
 .allcontent {
+    /* 凝胶布局，宽度固定，居中 */
     width: 960px;
     margin: 0 auto;
 }
+
+
+/* 导航栏通过无序列表实现 */
 
 nav {
     float: left;
@@ -94,6 +99,9 @@ nav ul li a:link {
     border-color: #f7e5d1;
     border-radius: 12px;
 }
+
+
+/* 边框实现阴影 */
 
 .part2-2 table {
     border-spacing: 10px;
